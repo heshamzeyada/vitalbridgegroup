@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /products.html
+Allow: /contact.html
+Allow: /blog.html
+Allow: /careers.html
+Allow: /faq.html
+Allow: /testimonials.html
+
+# Prevent staging environments or non-public policies from polluting layout results
+Disallow: /admin/
+Disallow: /config/
+Disallow: /404.html
+
+Sitemap: https://www.vitalbridgegroup.com/sitemap.xml
