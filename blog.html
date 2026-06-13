@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market Insights — Vital Bridge Healthcare</title>
+  <meta name="description" content="Stay updated with the latest news on Saudi Arabia's healthcare transformation, SFDA regulatory updates, and medical distribution strategies." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .blog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 32px; }
+    .blog-card { background: var(--white); border: 1px solid var(--light-gray); border-radius: var(--radius-md); overflow: hidden; transition: all var(--transition); display: flex; flex-direction: column; }
+    .blog-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .blog-img { height: 200px; background: var(--navy); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: var(--white); }
+    .blog-content { padding: 32px; flex-grow: 1; display: flex; flex-direction: column; }
+    .blog-category { font-size: 0.75rem; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px; }
+    .blog-title { font-size: 1.25rem; margin-bottom: 12px; line-height: 1.4; }
+    .blog-title a { transition: color var(--transition); }
+    .blog-title a:hover { color: var(--gold); }
+    .blog-excerpt { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 24px; flex-grow: 1; }
+    .blog-meta { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--light-gray); padding-top: 16px; font-size: 0.85rem; color: #9ca3af; }
+  </style>
+</head>
+<body>
+
+  <!-- ========== GLOBAL HEADER ========== -->
+<header class="header">
+  <div class="container header__inner">
+    <a href="index.html" class="header__logo">
+      <img src="images/vital-bridge-logo.png" alt="Vital Bridge logo" width="40" height="40" />
+      <span style="font-weight:700; color:var(--white);">Vital Bridge</span>
+    </a>
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="blog.html" class="nav__link">Insights</a></li>
+        <li><a href="careers.html" class="nav__link">Careers</a></li>
+        <li><a href="faq.html" class="nav__link">FAQ</a></li>
+        <li><a href="contact.html" class="btn btn--primary" style="padding:8px 16px;">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__inner">
+        <span class="page-hero__label">News & Analysis</span>
+        <h1 class="page-hero__title">Market <em>Insights</em></h1>
+        <p class="page-hero__subtitle">Expert perspectives on navigating the regulatory and commercial landscape of Saudi Arabia's healthcare sector.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="blog-grid reveal">
+        
+        <!-- Post 1 -->
+        <article class="blog-card">
+          <div class="blog-img" style="background: linear-gradient(135deg, #1a2b4a, #2a4365);">📜</div>
+          <div class="blog-content">
+            <span class="blog-category">Regulatory Updates</span>
+            <h2 class="blog-title"><a href="#">Navigating the New SFDA Unique Device Identification (UDI) Requirements</a></h2>
+            <p class="blog-excerpt">Understanding the phased implementation of UDI coding for medical devices in Saudi Arabia and how European manufacturers must adapt their labelling.</p>
+            <div class="blog-meta">
+              <span>May 15, 2026</span>
+              <span>By Regulatory Team</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="blog-card">
+          <div class="blog-img" style="background: linear-gradient(135deg, #c9963a, #e8b560);">📈</div>
+          <div class="blog-content">
+            <span class="blog-category">Market Analysis</span>
+            <h2 class="blog-title"><a href="#">Vision 2030: The Rise of Private-Public Partnerships in Healthcare</a></h2>
+            <p class="blog-excerpt">As the Ministry of Health shifts towards a regulatory role, private sector distribution and localization frameworks are creating unprecedented B2B opportunities.</p>
+            <div class="blog-meta">
+              <span>April 28, 2026</span>
+              <span>By Executive Board</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="blog-card">
+          <div class="blog-img" style="background: linear-gradient(135deg, #0f1e35, #1a2b4a);">❄️</div>
+          <div class="blog-content">
+            <span class="blog-category">Logistics</span>
+            <h2 class="blog-title"><a href="#">Overcoming GDP Cold-Chain Challenges in the GCC Climate</a></h2>
+            <p class="blog-excerpt">An inside look at Vital Bridge's infrastructural approach to ensuring zero-excursion temperature control from European dispatch to Riyadh hospital delivery.</p>
+            <div class="blog-meta">
+              <span>March 10, 2026</span>
+              <span>By Supply Chain Ops</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="images/vital-bridge-logo.png" alt="Vital Bridge logo" width="48" height="48" loading="lazy" />
+          <p>Bridging European healthcare quality with Saudi Arabia's Vision 2030. SFDA-licensed distributor and strategic partner for international healthcare companies entering the Kingdom.</p>
+          <div class="footer__social">
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+            <a href="https://wa.me/966563542882" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+            <a href="mailto:Info@vitalbridgegroup.com" aria-label="Email">✉</a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__heading">Services</p>
+          <ul class="footer__links">
+            <li><a href="services.html#distribution">Medical Distribution</a></li>
+            <li><a href="services.html#bizdev">Business Development</a></li>
+            <li><a href="services.html#regulatory">Market Access &amp; Regulatory</a></li>
+            <li><a href="services.html#technology">Healthcare Technology</a></li>
+            <li><a href="services.html#partnerships">Strategic Partnerships</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__heading">Company</p>
+          <ul class="footer__links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-use.html">Terms of Use</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__heading">Contact</p>
+          <div class="footer__contact-item"><span>📍</span><span>Riyadh, Kingdom of Saudi Arabia</span></div>
+          <div class="footer__contact-item"><span>✉</span><a href="mailto:Info@vitalbridgegroup.com" style="color:rgba(255,255,255,0.65);">Info@vitalbridgegroup.com</a></div>
+          <div class="footer__contact-item"><span>📞</span><a href="tel:+966563542882" style="color:rgba(255,255,255,0.65);">+966 563 542 882</a></div>
+          <div style="margin-top:16px;"><a href="contact.html" class="btn btn--primary" style="font-size:0.78rem;padding:10px 20px;">Partner With Us →</a></div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Vital Bridge LLC. All rights reserved. Registered in the Kingdom of Saudi Arabia.</p>
+        <div class="footer__bottom-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-use.html">Terms of Use</a>
+          <a href="sitemap.html#cookies">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
